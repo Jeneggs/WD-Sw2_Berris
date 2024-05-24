@@ -114,12 +114,12 @@ ul li a:hover{
 .image img.vg{
     position: absolute;
     height: 170%;
-    left: 55%;
+    left: 40%;
     transform: translate(-50%);
     bottom: 0;
     transition: left 2s ease;
 }
 
 .image:hover .vg{
-    left: 47%;
+    left: 35%;
 }
