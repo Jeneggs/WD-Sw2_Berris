@@ -29,14 +29,11 @@
 .info{
     width: 86%;
     display: flex;
-    margin: auto;
-    padding: 15px 0;
-    align-items: center;
-    justify-content: space-between;
-    background-color:#212121;
+    margin-top: 20px;
+    background-color: #212121;
     padding: 20px;
-    border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: rgb(203, 228, 222);
 }
 
 .navbar .logo {
@@ -64,32 +61,9 @@ ul li a:hover{
     color: rgb(203, 228, 222);
 }
 
-.info{
-    margin-left: 7%;
-    margin-top: 6%;
-    color: rgb(203, 228, 222);
-}
-
-.info h1{
-    font-size: 65 px;
-    color: rgb(14, 131, 136);
-} 
-
 .info h3{
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 24px;
-}
-
-.info span{
-    color: rgb(14, 131, 136);
-}
-
-.image{
-    width: 30%;
-    height: 60%;
-    position: absolute;
-    right: 100px;
-    bottom: -111px;
 }
 
