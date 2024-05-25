@@ -61,12 +61,6 @@ Description of the project in details.
 
 This project serves as a mock resume in the form of a website. This project gives a quick introduction about myself, the things I've achieved, things I love, and things I'm capable of. Through this project, I was able to exercise and display my skill in building a website using the powers of HTML and CSS. 
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
@@ -115,7 +109,10 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-| Images not Displaying in GitHub Pages (SOLVED) | Fixed my 5 hour problem of images and web pages not appearing | https://www.youtube.com/watch?v=Q-kprWFU8mU&t=294s |
+| Images not Displaying in GitHub Pages (SOLVED) | Fixed my 5 hour problem of images and web pages not appearing | https://www.youtube.com/watch?v=Q-kprWFU8mU&t=294s | 
+
 | Images not displaying in Github Pages? | Fixed my 5 hour problem of images and web pages not appearing | https://stackoverflow.com/questions/41468951  images-not-displaying-in-github-pages |
+
 | How To Make Portfolio Website Using Html & Css Step-by-Step Tutorial PraRoz Tutorial | The main inspiration of my website | https://www.youtube.com/watch?v=fpze88HptWg |
+
 | Overlapping Elements on Top of Each Other using the CSS Grid | Helped me design the two images in my homepage where the guy is on top of the vines | https://www.youtube.com/watch?v=Q-kprWFU8mU&t=294s |
