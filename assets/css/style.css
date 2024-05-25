@@ -12,6 +12,7 @@
     position: relative;
     font-family: sans-serif;
     overflow: hidden;
+    z-index: 1;
 }
 
 .navbar {
@@ -21,36 +22,37 @@
     padding: 15px 0;
     align-items: center;
     justify-content: space-between;
-    background-color:#212121;
+    background-color: #212121;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 
-.info{
+.info {
     margin-left: 7%;
     margin-top: 6%;
     width: 390px;
     height: 390px;
-    background-color:#212121;
+    background-color: #212121;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
-
 
 .navbar .logo {
     width: 100px;
     cursor: pointer;
-    margin-left: +1%;
+    margin-left: 1%;
 }
 
-ul li{
+ul li {
     list-style: none;
     display: inline-block;
     padding: 10px 16px;
 }
 
-ul li a{
+ul li a {
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
@@ -59,32 +61,32 @@ ul li a{
     transition: .4s ease;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: rgb(203, 228, 222);
 }
 
-.info{
+.info {
     margin-left: 7%;
     margin-top: 6%;
     color: rgb(203, 228, 222);
 }
 
-.info h1{
-    font-size: 65 px;
+.info h1 {
+    font-size: 65px;
     color: rgb(14, 131, 136);
-} 
+}
 
-.info h3{
+.info h3 {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 24px;
 }
 
-.info span{
+.info span {
     color: rgb(14, 131, 136);
 }
 
-.info a{
+.info a {
     text-decoration: none;
     color: white;
     background: rgb(36, 32, 30);
@@ -93,25 +95,24 @@ ul li a:hover{
     border-radius: 10px;
     display: inline-block;
     transition: .4s ease;
+    z-index: 3; 
+    position: relative; 
 }
 
-.info a{
-    color: rgb(14, 131, 136);
-}
-
-.info a:hover{
+.info a:hover {
     background: rgb(203, 228, 222);
 }
 
-.image{
+.image {
     width: 30%;
     height: 60%;
     position: absolute;
     right: 100px;
     bottom: -111px;
+    z-index: 2;
 }
 
-.image img.vg{
+.image img.vg {
     position: absolute;
     height: 170%;
     left: 40%;
@@ -120,6 +121,20 @@ ul li a:hover{
     transition: left 2s ease;
 }
 
-.image:hover .vg{
+.image:hover .vg {
     left: 35%;
+}
+
+.full {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background-image: url(/assets/img/full.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+    pointer-events: none; 
 }
